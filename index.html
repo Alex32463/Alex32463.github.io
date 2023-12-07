@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Alex Yefimov - Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      padding-top: 56px;
+    }
+    @media (min-width: 768px) {
+      body {
+        padding-top: 76px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Alex Yefimov</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#project">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-primary text-white text-center">
+    <div class="container">
+      <h1 class="display-4">Alex Yefimov</h1>
+      <p class="lead">Web Developer | Game Developer | Creator</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+<section id="skills" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="display-4">Over Mij</h2>
+        <p>Mijn naam is Alex, ik ben 17 jaar oud en ik ben een web en game developer in Enschede.</p>
+        <h4 class="mt-4">Skills</h4>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">C#</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">HTML</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">CSS</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid rounded-circle" src="foto.png" alt="Your Profile Picture">
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Portfolio Section -->
+  <section id="project" class="py-5">
+    <div class="container">
+      <h2 class="display-4 text-center">Project</h2>
+      <!-- Add your portfolio items here -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="werk2.png" class="card-img-top" alt="Game">
+            <div class="card-body">
+              <h5 class="card-title">Website</h5>
+              <p class="card-text">Jarvis opdracht</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="werk1.png" class="card-img-top" alt="Game">
+            <div class="card-body">
+               <h5 class="card-title">MindSwing</h5>
+              <p class="card-text">Mijn eerste Unity game</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="card">
+            <img src="werk2.png" class="card-img-top" alt="Game">
+            <div class="card-body">
+              <h5 class="card-title">Website</h5>
+              <p class="card-text">Jarvis opdracht</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="movement.gif" class="card-img-top" alt="Game">
+          <div class="card-body">
+            <h5 class="card-title">Hampterball</h5>
+            <p class="card-text">Hampterball is een spel op de telefoon dat ik met een groepje van zes heb gemaakt. <br>Ik ben bezig geweest met de movement (met accelerator), <br> level design, camera en post processing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-dark text-white py-5">
+    <div class="container">
+      <h2 class="display-4 text-center">Contact</h2>
+      <p class="text-center">Feel free to reach out to me!</p>
+      <!-- Add your contact form here -->
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-3 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">© 2023 Alex Yefimov</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
