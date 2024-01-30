@@ -168,6 +168,26 @@
     </div>
   </section>
 
+  <section id="MonoGame" class="py-5">
+    <div class="container">
+      <h2 class="display-4 text-center">Asteroids and Satellites</h2>
+      <div class="row" id="monogame-row">
+        <div class="col-md-6">
+          <img src="asteroidsandsatellites.gif" class="portfolio-img" alt="Game">
+          <img src="uml.png" class="portfolio-img" alt="Game">
+        </div>
+        <div class="col-md-6 text-column">
+          <h5 class="card-title">Asteroids and Satellites</h5>
+          <p class="card-text">Asteroids and Satellites is een spel waarbij je aan de hand van een ruimteschip 
+            stenen en satellieten kapot moet schieten voor punten.<br> <br>
+            Dit spel heb ik gemaakt met de extensie MonoGame binnenin Visual Studio. Ik heb hierbij OOP (Object Oriented Programming) gebruikt
+          </p>
+          <img src="codescreenshot.png" class="portfolio-img" alt="Game">
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="contact" class="bg-dark text-white py-5">
     <div class="container">
       <h2 class="display-4 text-center">Contact</h2>
@@ -213,10 +233,15 @@
 
     function showOnScroll() {
       const hampterballRow = document.getElementById("hampterball-row");
+      const monogameRow = document.getElementById("monogame-row");
       const projectCards = document.querySelectorAll("#project .card");
 
       if (isInViewport(hampterballRow)) {
         hampterballRow.classList.add("show");
+      }
+
+      if (isInViewport(monogameRow)) {
+        monogameRow.classList.add("show");
       }
 
       projectCards.forEach((card) => {
